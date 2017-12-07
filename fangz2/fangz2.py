@@ -17,3 +17,24 @@ Authors: Dave Fisher and zhengshanfang.
 #   Feel free to run it, change it, and run it again with any message you like.
 #   This program is simple, but if you can do this, then you have the tools to do FAR more.
 # ------------------------------------------------------------------
+
+import ev3dev.ev3 as ev3
+import time
+
+
+def main():
+    """ Creates the LargeMotor objects and passes them to other functions. """
+    print("--------------------------------------------")
+    print("  Say you name")
+    print("--------------------------------------------")
+    ev3.Sound.speak("lately ive been losing sleep dreaming about the things that we could be quiero respirar tu cuello despacitopy").wait()
+
+
+main()
+
+
+
+
+
+
+
